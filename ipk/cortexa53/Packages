@@ -1536,12 +1536,12 @@ Priority: optional
 
 Package: apparmor-simulator
 Version: 1.0.0
-Depends: libwrp-c, libparodus, libnanomsg, rbus, libcimplog
+Depends: libparodus, rbus
 Section: misc
 Architecture: cortexa53
 Maintainer: Package Workflows <packages@example.com>
-MD5Sum: 2c7012c5d1ecd940f34a2d0494521392
-Size: 12550
+MD5Sum: 5b18c85258aea9a6dc51652b7c221d71
+Size: 12526
 Filename: apparmor-simulator_1.0.0_cortexa53.ipk
 Description: Synthetic AppArmor event emitter for the vCPE gateway container
 Priority: optional
