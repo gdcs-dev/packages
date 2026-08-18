@@ -1,0 +1,253 @@
+Package: autoconf-archive
+Version: 2022.02.11-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9f0a6349798422378157ec3d38283193
+Size: 313690
+Filename: autoconf-archive_2022.02.11-r0_all.ipk
+Source: autoconf-archive_2022.02.11.bb
+Description: a collection of freely re-usable Autoconf macros
+OE: autoconf-archive
+HomePage: http://www.gnu.org/software/autoconf-archive/
+License: GPL-3.0-with-autoconf-exception
+Priority: optional
+
+Package: ca-certificates-dbg
+Version: 20211016-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 137757998360eaa655567dd8cdbb7d5b
+Size: 802
+Filename: ca-certificates-dbg_20211016-r0_all.ipk
+Source: ca-certificates_20211016.bb
+Description: Common CA certificates - Debugging files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0-or-later & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-dev
+Version: 20211016-r0
+Depends: ca-certificates (= 20211016-r0)
+Recommends: openssl-bin-dev, openssl-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4513345819bb9a4281635b28f731d3ed
+Size: 848
+Filename: ca-certificates-dev_20211016-r0_all.ipk
+Source: ca-certificates_20211016.bb
+Description: Common CA certificates - Development files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0-or-later & MPL-2.0
+Priority: optional
+
+Package: ca-certificates
+Version: 20211016-r0
+Depends: openssl, openssl-bin
+Section: misc
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a3eafda408767ef1521b95170896f8b2
+Size: 116300
+Filename: ca-certificates_20211016-r0_all.ipk
+Source: ca-certificates_20211016.bb
+Description: Common CA certificates
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0-or-later & MPL-2.0
+Priority: optional
+
+Package: jquery
+Version: 3.7.1-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 88d3474cc8e254895276f50cd397c6c5
+Size: 73234
+Filename: jquery_3.7.1-r0_all.ipk
+Source: jquery_3.7.1.bb
+Description: jQuery is a fast, small, and feature-rich JavaScript library
+OE: jquery
+HomePage: https://jquery.com/
+License: MIT
+Priority: optional
+
+Package: netbase-dbg
+Version: 1:6.3-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d42d001c09c80120cddd3cdacf4c26dc
+Size: 740
+Filename: netbase-dbg_6.3-r0_all.ipk
+Source: netbase_6.3.bb
+Description: Basic TCP/IP networking support - Debugging files
+OE: netbase
+HomePage: http://packages.debian.org/netbase
+License: GPL-2.0-only
+Priority: optional
+
+Package: netbase-dev
+Version: 1:6.3-r0
+Depends: netbase (= 1:6.3-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fbf1eddde2b6f1140f813e5d11661a10
+Size: 766
+Filename: netbase-dev_6.3-r0_all.ipk
+Source: netbase_6.3.bb
+Description: Basic TCP/IP networking support - Development files
+OE: netbase
+HomePage: http://packages.debian.org/netbase
+License: GPL-2.0-only
+Priority: optional
+
+Package: netbase
+Version: 1:6.3-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1aa685f58276afadb3334e5f4e7783eb
+Size: 8268
+Filename: netbase_6.3-r0_all.ipk
+Source: netbase_6.3.bb
+Description: Basic TCP/IP networking support
+OE: netbase
+HomePage: http://packages.debian.org/netbase
+License: GPL-2.0-only
+Priority: optional
+
+Package: os-release-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c43f1697a3e6db5afc9062b5504038f9
+Size: 684
+Filename: os-release-dbg_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification - Debugging files
+OE: os-release
+License: MIT
+Priority: optional
+
+Package: os-release-dev
+Version: 1.0-r0
+Depends: os-release (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b05bc5236be6ede463ccbd3737116bd5
+Size: 714
+Filename: os-release-dev_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification - Development files
+OE: os-release
+License: MIT
+Priority: optional
+
+Package: os-release
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5f84bd951236e6116d78e9bbc6c71859
+Size: 800
+Filename: os-release_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification
+OE: os-release
+License: MIT
+Priority: optional
+
+Package: run-postinsts-dbg
+Version: 1.0-r10
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a40387669b2e11b153eccdc5de92c5c3
+Size: 686
+Filename: run-postinsts-dbg_1.0-r10_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device - Debugging files
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts-dev
+Version: 1.0-r10
+Depends: run-postinsts (= 1.0-r10)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f9c61337cc7fe75bfec228dca077eb0c
+Size: 720
+Filename: run-postinsts-dev_1.0-r10_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device - Development files
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts
+Version: 1.0-r10
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: adeeeb2d876d58e1cd97ae6aa1da2c78
+Size: 2142
+Filename: run-postinsts_1.0-r10_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: volatile-binds-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0066948db398b426ea585d161d7a54d3
+Size: 690
+Filename: volatile-binds-dbg_1.0-r0_all.ipk
+Source: volatile-binds.bb
+Description: Volatile bind mount setup and configuration for read-only-rootfs - Debugging files
+OE: volatile-binds
+License: MIT
+Priority: optional
+
+Package: volatile-binds-dev
+Version: 1.0-r0
+Depends: volatile-binds (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4875987f2a45e02b6f48d10df654d0c3
+Size: 718
+Filename: volatile-binds-dev_1.0-r0_all.ipk
+Source: volatile-binds.bb
+Description: Volatile bind mount setup and configuration for read-only-rootfs - Development files
+OE: volatile-binds
+License: MIT
+Priority: optional
+
+Package: volatile-binds
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 863c59c401e2c3813b90dfe88afa6e35
+Size: 2716
+Filename: volatile-binds_1.0-r0_all.ipk
+Source: volatile-binds.bb
+Description: Volatile bind mount setup and configuration for read-only-rootfs
+OE: volatile-binds
+License: MIT
+Priority: optional
+

@@ -1,0 +1,2973 @@
+Package: base-files-dbg
+Version: 3.0.14-r89
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a14418c86ad94a233f5f0e0fecb4bac7
+Size: 748
+Filename: base-files-dbg_3.0.14-r89_xb10.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Debugging files
+OE: base-files
+License: GPL-2.0-only
+Priority: optional
+
+Package: base-files-dev
+Version: 3.0.14-r89
+Depends: base-files (= 3.0.14-r89)
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cb478be8010ed77976416eb3e1b7eaf5
+Size: 778
+Filename: base-files-dev_3.0.14-r89_xb10.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Development files
+OE: base-files
+License: GPL-2.0-only
+Priority: optional
+
+Package: base-files
+Version: 3.0.14-r89
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 470b3a30d9b280a17d23bc71d4c99b1b
+Size: 3888
+Filename: base-files_3.0.14-r89_xb10.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system
+OE: base-files
+License: GPL-2.0-only
+Priority: optional
+
+Package: boops-k-dbg
+Version: 6.1+git-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cf3e2d1d7e6cb7920fc8c3780363d403
+Size: 26272
+Filename: boops-k-dbg_6.1+git-r0_xb10.ipk
+Source: boops-k.bb
+Description: Broadcom Oops Capture Kernel Driver - Debugging files
+OE: boops-k
+License: GPLv2
+Priority: optional
+
+Package: boops-k-dev
+Version: 6.1+git-r0
+Depends: boops-k (= 6.1+git-r0)
+Recommends: kernel-5.15.153-prod-25.1-pd-dev, kernel-module-boops-5.15.153-prod-25.1-pd-dev, rglinux-dev
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d262fd9df63aef8e048673e8f60d38e
+Size: 2086
+Filename: boops-k-dev_6.1+git-r0_xb10.ipk
+Source: boops-k.bb
+Description: Broadcom Oops Capture Kernel Driver - Development files
+OE: boops-k
+License: GPLv2
+Priority: optional
+
+Package: boops-k-src
+Version: 6.1+git-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9096e6f98c379971239cff682e4fd629
+Size: 10352
+Filename: boops-k-src_6.1+git-r0_xb10.ipk
+Source: boops-k.bb
+Description: Broadcom Oops Capture Kernel Driver - Source files
+OE: boops-k
+License: GPLv2
+Priority: optional
+
+Package: boops-k
+Version: 6.1+git-r0
+Depends: kernel-module-boops-5.15.153-prod-25.1-pd
+Provides: boops-k
+Section: console/utils
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e75cd1984dad85ee7b4a4541a87791d8
+Size: 660
+Filename: boops-k_6.1+git-r0_xb10.ipk
+Source: boops-k.bb
+Description: Broadcom Oops Capture Kernel Driver
+OE: boops-k
+License: GPLv2
+Priority: optional
+
+Package: broadcom-rgdriver-bspeed-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1f34f4c254cf57f39b9c28bc3fa75f9a
+Size: 82288
+Filename: broadcom-rgdriver-bspeed-dbg_1.0-r0_xb10.ipk
+Source: broadcom-rgdriver-bspeed.bb
+Description: Broadcom RG bspeed driver - Debugging files
+OE: broadcom-rgdriver-bspeed
+License: CLOSED
+Priority: optional
+
+Package: broadcom-rgdriver-bspeed-dev
+Version: 1.0-r0
+Depends: broadcom-rgdriver-bspeed (= 1.0-r0)
+Recommends: kernel-5.15.153-prod-25.1-pd-dev, kernel-module-bspeed-5.15.153-prod-25.1-pd-dev, kernel-module-dqnet-5.15.153-prod-25.1-pd-dev
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b4329581b5277d96c4740abc305234c8
+Size: 1020
+Filename: broadcom-rgdriver-bspeed-dev_1.0-r0_xb10.ipk
+Source: broadcom-rgdriver-bspeed.bb
+Description: Broadcom RG bspeed driver - Development files
+OE: broadcom-rgdriver-bspeed
+License: CLOSED
+Priority: optional
+
+Package: broadcom-rgdriver-bspeed-src
+Version: 1.0-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9a0df4fbcf7f95ccd333675eec02badb
+Size: 14468
+Filename: broadcom-rgdriver-bspeed-src_1.0-r0_xb10.ipk
+Source: broadcom-rgdriver-bspeed.bb
+Description: Broadcom RG bspeed driver - Source files
+OE: broadcom-rgdriver-bspeed
+License: CLOSED
+Priority: optional
+
+Package: broadcom-rgdriver-bspeed
+Version: 1.0-r0
+Depends: kernel-module-bspeed-5.15.153-prod-25.1-pd
+Section: drivers/net
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a7879cc3a70fb9a93e48e62a05f01b4c
+Size: 642
+Filename: broadcom-rgdriver-bspeed_1.0-r0_xb10.ipk
+Source: broadcom-rgdriver-bspeed.bb
+Description: Broadcom RG bspeed driver
+OE: broadcom-rgdriver-bspeed
+License: CLOSED
+Priority: optional
+
+Package: ccsp-hotspot-kmod-dbg
+Version: 1.1.0_stable2_20260109-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 345821d62b6fa8298d5d69038632c755
+Size: 26222
+Filename: ccsp-hotspot-kmod-dbg_1.1.0_stable2_20260109-r0_xb10.ipk
+Source: ccsp-hotspot-kmod.bb
+Description: CCSP Hotspot Kernel Module - Debugging files
+OE: ccsp-hotspot-kmod
+HomePage: https://github.com/belvedere-yocto/hotspot
+License: GPLv2
+Priority: optional
+
+Package: ccsp-hotspot-kmod-dev
+Version: 1.1.0_stable2_20260109-r0
+Depends: ccsp-hotspot-kmod (= 1.1.0_stable2_20260109-r0)
+Recommends: kernel-5.15.153-prod-25.1-pd-dev, kernel-module-brmtumod-5.15.153-prod-25.1-pd-dev
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 688676b378b3799c36181725271497a9
+Size: 928
+Filename: ccsp-hotspot-kmod-dev_1.1.0_stable2_20260109-r0_xb10.ipk
+Source: ccsp-hotspot-kmod.bb
+Description: CCSP Hotspot Kernel Module - Development files
+OE: ccsp-hotspot-kmod
+HomePage: https://github.com/belvedere-yocto/hotspot
+License: GPLv2
+Priority: optional
+
+Package: ccsp-hotspot-kmod-src
+Version: 1.1.0_stable2_20260109-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b4657108d28248a763a8a6ed0f0d8761
+Size: 7152
+Filename: ccsp-hotspot-kmod-src_1.1.0_stable2_20260109-r0_xb10.ipk
+Source: ccsp-hotspot-kmod.bb
+Description: CCSP Hotspot Kernel Module - Source files
+OE: ccsp-hotspot-kmod
+HomePage: https://github.com/belvedere-yocto/hotspot
+License: GPLv2
+Priority: optional
+
+Package: ccsp-hotspot-kmod
+Version: 1.1.0_stable2_20260109-r0
+Depends: kernel-module-brmtumod-5.15.153-prod-25.1-pd
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: be81886ebd6bbb8e4aefb4bb8b227ebe
+Size: 696
+Filename: ccsp-hotspot-kmod_1.1.0_stable2_20260109-r0_xb10.ipk
+Source: ccsp-hotspot-kmod.bb
+Description: CCSP Hotspot Kernel Module
+OE: ccsp-hotspot-kmod
+HomePage: https://github.com/belvedere-yocto/hotspot
+License: GPLv2
+Priority: optional
+
+Package: cpcd-dbg
+Version: 4.4.6.0-r2
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg, libsystemd-dbg, mbedtls-dbg, utopia-dbg, zlog-dbg
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ccc65dea44400456466fa5548c6c45de
+Size: 410808
+Filename: cpcd-dbg_4.4.6.0-r2_xb10.ipk
+Source: cpcd_4.4.6.0.bb
+Description: enabling gdb for comcast dev jenkins builds - Debugging files
+OE: cpcd
+License: CLOSED
+Priority: optional
+
+Package: cpcd-dev
+Version: 4.4.6.0-r2
+Depends: cpcd (= 4.4.6.0-r2)
+Recommends: glibc-dev, libgcc-dev, libstdc++-dev, libsystemd-dev, mbedtls-dev, systemd-dev, utopia-dev, zlog-dev
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a27aaadf37a4c55ed20088f9a49ba0a8
+Size: 7138
+Filename: cpcd-dev_4.4.6.0-r2_xb10.ipk
+Source: cpcd_4.4.6.0.bb
+Description: enabling gdb for comcast dev jenkins builds - Development files
+OE: cpcd
+License: CLOSED
+Priority: optional
+
+Package: cpcd-src
+Version: 4.4.6.0-r2
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1a4c6b4234ec664d0b7c0333efad4672
+Size: 124254
+Filename: cpcd-src_4.4.6.0-r2_xb10.ipk
+Source: cpcd_4.4.6.0.bb
+Description: enabling gdb for comcast dev jenkins builds - Source files
+OE: cpcd
+License: CLOSED
+Priority: optional
+
+Package: cpcd
+Version: 4.4.6.0-r2
+Depends: libc6 (>= 2.35), libgcc1 (>= 11.3.0), libstdc++6 (>= 11.3.0), libsystemd0 (>= 250.5), mbedtls (>= 2.16.3), systemd, utopia (>= 2.3.0_stable2_20260424), zlog (>= 1.2.18)
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3318f9fe6fb08441f787c8605d9c4ac5
+Size: 235848
+Filename: cpcd_4.4.6.0-r2_xb10.ipk
+Source: cpcd_4.4.6.0.bb
+Description: enabling gdb for comcast dev jenkins builds
+OE: cpcd
+License: CLOSED
+Priority: optional
+
+Package: ipset-dbg
+Version: 6.38-r0
+Recommends: glibc-dbg, libmnl-dbg
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a1765d0f76228fea6ec3a4ca66640770
+Size: 102856
+Filename: ipset-dbg_6.38-r0_xb10.ipk
+Source: ipset_6.38.bb
+Description: enabling gdb for comcast dev jenkins builds - Debugging files
+OE: ipset
+HomePage: http://ipset.netfilter.org
+License: GPL-2.0-only
+Priority: optional
+
+Package: ipset-dev
+Version: 6.38-r0
+Depends: ipset (= 6.38-r0)
+Recommends: glibc-dev, libmnl-dev, libtool-dev
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d27f334ffe30d2e3a45a19b68868441a
+Size: 9552
+Filename: ipset-dev_6.38-r0_xb10.ipk
+Source: ipset_6.38.bb
+Description: enabling gdb for comcast dev jenkins builds - Development files
+OE: ipset
+HomePage: http://ipset.netfilter.org
+License: GPL-2.0-only
+Priority: optional
+
+Package: ipset-src
+Version: 6.38-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f35cba0c44ce416772aeaee996be27c5
+Size: 49576
+Filename: ipset-src_6.38-r0_xb10.ipk
+Source: ipset_6.38.bb
+Description: enabling gdb for comcast dev jenkins builds - Source files
+OE: ipset
+HomePage: http://ipset.netfilter.org
+License: GPL-2.0-only
+Priority: optional
+
+Package: ipset-staticdev
+Version: 6.38-r0
+Depends: ipset-dev (= 6.38-r0)
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 454c61057b002bc4991dade07db74fb4
+Size: 119680
+Filename: ipset-staticdev_6.38-r0_xb10.ipk
+Source: ipset_6.38.bb
+Description: enabling gdb for comcast dev jenkins builds - Development files (Static Libraries)
+OE: ipset
+HomePage: http://ipset.netfilter.org
+License: GPL-2.0-only
+Priority: optional
+
+Package: ipset
+Version: 6.38-r0
+Depends: libc6 (>= 2.35), libmnl0 (>= 1.0.4)
+Recommends: kernel-module-ip-set
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1f05bb57524fa611282e76421d762dbc
+Size: 45804
+Filename: ipset_6.38-r0_xb10.ipk
+Source: ipset_6.38.bb
+Description: enabling gdb for comcast dev jenkins builds
+OE: ipset
+HomePage: http://ipset.netfilter.org
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Provides: kernel-5.15.153-prod-25.1-pd, kernel-base
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 06d4c26395afb367ec5a78879a737992
+Size: 26202
+Filename: kernel-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: enabling gdb for comcast dev jenkins builds
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-dbg
+Version: 5.15-r0
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 63dd6e2a01f66f2e1187949e6cf5e09e
+Size: 22398688
+Filename: kernel-dbg_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: enabling gdb for comcast dev jenkins builds
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-dev
+Version: 5.15-r0
+Recommends: kernel-5.15.153-prod-25.1-pd-dev, kernel-base-dev, kernel-image-image.gz-dev, kernel-module-arpt-mangle-5.15.153-prod-25.1-pd-dev, kernel-module-arptable-filter-5.15.153-prod-25.1-pd-dev, kernel-module-bcm-flexrm-mailbox-5.15.153-prod-25.1-pd-dev, kernel-module-bcm-pdc-mailbox-5.15.153-prod-25.1-pd-dev, kernel-module-bcm-phy-lib-5.15.153-prod-25.1-pd-dev, kernel-module-bcm5xxx-5.15.153-prod-25.1-pd-dev, kernel-module-bcm6802-5.15.153-prod-25.1-pd-dev, kernel-module-bcm9339x-5.15.153-prod-25.1-pd-dev, kernel-module-bmoca-5.15.153-prod-25.1-pd-dev, kernel-module-bonding-5.15.153-prod-25.1-pd-dev, kernel-module-dqnet-5.15.153-prod-25.1-pd-dev, kernel-module-ebt-802-3-5.15.153-prod-25.1-pd-dev, kernel-module-ebt-among-5.15.153-prod-25.1-pd-dev, kernel-module-ebt-arpreply-5.15.153-prod-25.1-pd-dev, kernel-module-ebt-dhcpsnoop-5.15.153-prod-25.1-pd-dev, kernel-module-ebt-dhcpsnoop-db-5.15.153-prod-25.1-pd-dev, kernel-module-ebt-limit-5.15.153-prod-25.1-pd-dev, kernel-module-ebt-log-5.15.153-prod-25.1-pd-dev, kernel-module-ebt-mark-5.15.153-prod-25.1-pd-dev, kernel-module-ebt-mark-m-5.15.153-prod-25.1-pd-dev, kernel-module-ebt-nflog-5.15.153-prod-25.1-pd-dev, kernel-module-ebt-pkttype-5.15.153-prod-25.1-pd-dev, kernel-module-ebt-redirect-5.15.153-prod-25.1-pd-dev, kernel-module-ebt-stp-5.15.153-prod-25.1-pd-dev, kernel-module-ebt-vlan-5.15.153-prod-25.1-pd-dev, kernel-module-ebtable-broute-5.15.153-prod-25.1-pd-dev, kernel-module-flowmgr-5.15.153-prod-25.1-pd-dev, kernel-module-flowmgr-sfap-5.15.153-prod-25.1-pd-dev, kernel-module-ip6t-npt-5.15.153-prod-25.1-pd-dev, kernel-module-ip6table-nat-5.15.153-prod-25.1-pd-dev, kernel-module-ipt-ecn-5.15.153-prod-25.1-pd-dev, kernel-module-iptable-nat-5.15.153-prod-25.1-pd-dev, kernel-module-macpt-5.15.153-prod-25.1-pd-dev, kernel-module-mdio-bcm-unimac-5.15.153-prod-25.1-pd-dev, kernel-module-mdqm-5.15.153-prod-25.1-pd-dev, kernel-module-mpls-gso-5.15.153-prod-25.1-pd-dev, kernel-module-nf-conntrack-ftp-5.15.153-prod-25.1-pd-dev, kernel-module-nf-conntrack-h323-5.15.153-prod-25.1-pd-dev, kernel-module-nf-conntrack-ipsec-5.15.153-prod-25.1-pd-dev, kernel-module-nf-conntrack-irc-5.15.153-prod-25.1-pd-dev, kernel-module-nf-conntrack-netlink-5.15.153-prod-25.1-pd-dev, kernel-module-nf-conntrack-pptp-5.15.153-prod-25.1-pd-dev, kernel-module-nf-conntrack-rsvp-5.15.153-prod-25.1-pd-dev, kernel-module-nf-conntrack-rtsp-5.15.153-prod-25.1-pd-dev, kernel-module-nf-conntrack-sip-5.15.153-prod-25.1-pd-dev, kernel-module-nf-conntrack-tftp-5.15.153-prod-25.1-pd-dev, kernel-module-nf-defrag-ipv6-notrack-5.15.153-prod-25.1-pd-dev, kernel-module-nf-icmp-check-5.15.153-prod-25.1-pd-dev, kernel-module-nf-ipv4-frag-drop-for-wan-5.15.153-prod-25.1-pd-dev, kernel-module-nf-nat-ftp-5.15.153-prod-25.1-pd-dev, kernel-module-nf-nat-h323-5.15.153-prod-25.1-pd-dev, kernel-module-nf-nat-ipsec-5.15.153-prod-25.1-pd-dev, kernel-module-nf-nat-irc-5.15.153-prod-25.1-pd-dev, kernel-module-nf-nat-loopback-5.15.153-prod-25.1-pd-dev, kernel-module-nf-nat-pptp-5.15.153-prod-25.1-pd-dev, kernel-module-nf-nat-pt-5.15.153-prod-25.1-pd-dev, kernel-module-nf-nat-rsvp-5.15.153-prod-25.1-pd-dev, kernel-module-nf-nat-rtsp-5.15.153-prod-25.1-pd-dev, kernel-module-nf-nat-sip-5.15.153-prod-25.1-pd-dev, kernel-module-nf-nat-tftp-5.15.153-prod-25.1-pd-dev, kernel-module-nf-socket-ipv4-5.15.153-prod-25.1-pd-dev, kernel-module-nf-socket-ipv6-5.15.153-prod-25.1-pd-dev, kernel-module-nlmon-5.15.153-prod-25.1-pd-dev, kernel-module-nsh-5.15.153-prod-25.1-pd-dev, kernel-module-openvswitch-5.15.153-prod-25.1-pd-dev, kernel-module-rdkfmac-5.15.153-prod-25.1-pd-dev, kernel-module-sfap-5.15.153-prod-25.1-pd-dev, kernel-module-sit-5.15.153-prod-25.1-pd-dev, kernel-module-spi-loopback-test-5.15.153-prod-25.1-pd-dev, kernel-module-tcrypt-5.15.153-prod-25.1-pd-dev, kernel-module-tun-5.15.153-prod-25.1-pd-dev, kernel-module-tunnel4-5.15.153-prod-25.1-pd-dev, kernel-module-unimac-5.15.153-prod-25.1-pd-dev, kernel-module-vfbio-oops-5.15.153-prod-25.1-pd-dev, kernel-module-wps-gpio-5.15.153-prod-25.1-pd-dev, kernel-module-xt-classify-5.15.153-prod-25.1-pd-dev, kernel-module-xt-connbytes-5.15.153-prod-25.1-pd-dev, kernel-module-xt-helper-5.15.153-prod-25.1-pd-dev, kernel-module-xt-l2ogre-5.15.153-prod-25.1-pd-dev, kernel-module-xt-masquerade-5.15.153-prod-25.1-pd-dev, kernel-module-xt-nat-5.15.153-prod-25.1-pd-dev, kernel-module-xt-netmap-5.15.153-prod-25.1-pd-dev, kernel-module-xt-skipctoffload-5.15.153-prod-25.1-pd-dev, kernel-module-xt-socket-5.15.153-prod-25.1-pd-dev, kernel-module-xt-statistic-5.15.153-prod-25.1-pd-dev, kernel-module-xt-tcpmss-5.15.153-prod-25.1-pd-dev, kernel-module-xt-time-5.15.153-prod-25.1-pd-dev
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ccd493267ef834580049f92f110c31db
+Size: 683662
+Filename: kernel-dev_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: enabling gdb for comcast dev jenkins builds
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-image-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-image-image.gz-5.15.153-prod-25.1-pd (= 5.15-r0)
+Provides: kernel-image
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5f1774a115f417adf7e04f9a46629dd4
+Size: 684
+Filename: kernel-image-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: enabling gdb for comcast dev jenkins builds
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-image-image.gz-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Provides: kernel-image-image.gz
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f9f74abe39f21f7c9bd585e9d05fc6f4
+Size: 7604264
+Filename: kernel-image-image.gz-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: enabling gdb for comcast dev jenkins builds
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-arpt-mangle-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-arpt-mangle
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 98208384df5ebcbd27bf0c538efef732
+Size: 8478
+Filename: kernel-module-arpt-mangle-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: arpt-mangle kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-arptable-filter-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-arptable-filter
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c441aad80194bd440dd739506b66e54e
+Size: 8332
+Filename: kernel-module-arptable-filter-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: arptable-filter kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-bcm-flexrm-mailbox-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-bcm-flexrm-mailbox
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8d80ae52f636519895e6da7ac773ce5c
+Size: 33508
+Filename: kernel-module-bcm-flexrm-mailbox-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: bcm-flexrm-mailbox kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-bcm-pdc-mailbox-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-bcm-pdc-mailbox
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3867242d6df6699f78e9d7c137257d42
+Size: 30436
+Filename: kernel-module-bcm-pdc-mailbox-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: bcm-pdc-mailbox kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-bcm-phy-lib-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-bcm-phy-lib
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7e093ce905b75965bf96ac6a090d2c96
+Size: 26068
+Filename: kernel-module-bcm-phy-lib-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: bcm-phy-lib kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-bcm5xxx-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-bcm-phy-lib-5.15.153-prod-25.1-pd
+Provides: kernel-module-bcm5xxx
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 91d5f0a4f6119b3779a2ac82383cf75a
+Size: 9444
+Filename: kernel-module-bcm5xxx-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: bcm5xxx kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-bcm6802-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-bmoca-5.15.153-prod-25.1-pd
+Provides: kernel-module-bcm6802
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 736918f835cd5589a56b2ff449fee3cc
+Size: 21246
+Filename: kernel-module-bcm6802-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: bcm6802 kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-bcm9339x-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-bcm-phy-lib-5.15.153-prod-25.1-pd
+Provides: kernel-module-bcm9339x
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d5a29306e149cf78d35b20eda9d54dd4
+Size: 16106
+Filename: kernel-module-bcm9339x-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: bcm9339x kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-bmoca-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-bmoca
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 34755171bb42f2bed7d91b011023c15e
+Size: 70094
+Filename: kernel-module-bmoca-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: bmoca kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-bonding-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-bonding
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 91f37a977859fd2bbf2ec5362a116ff1
+Size: 237238
+Filename: kernel-module-bonding-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: bonding kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-boops-5.15.153-prod-25.1-pd
+Version: 6.1+git-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-boops
+Section: console/utils
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6fc5eaa6ff11e8b117073e9b4abe0c69
+Size: 10008
+Filename: kernel-module-boops-5.15.153-prod-25.1-pd_6.1+git-r0_xb10.ipk
+Source: boops-k.bb
+Description: boops kernel module
+OE: boops-k
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-brmtumod-5.15.153-prod-25.1-pd
+Version: 1.1.0_stable2_20260109-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-brmtumod
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 81d89aeee0ed650229c27af183e9bc5f
+Size: 6738
+Filename: kernel-module-brmtumod-5.15.153-prod-25.1-pd_1.1.0_stable2_20260109-r0_xb10.ipk
+Source: ccsp-hotspot-kmod.bb
+Description: brmtumod kernel module
+OE: ccsp-hotspot-kmod
+HomePage: https://github.com/belvedere-yocto/hotspot
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-bspeed-5.15.153-prod-25.1-pd
+Version: 1.0-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-dqnet-5.15.153-prod-25.1-pd
+Provides: kernel-module-bspeed
+Section: drivers/net
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 81f934fb4f7acf334434c66708791ada
+Size: 28264
+Filename: kernel-module-bspeed-5.15.153-prod-25.1-pd_1.0-r0_xb10.ipk
+Source: broadcom-rgdriver-bspeed.bb
+Description: bspeed kernel module
+OE: broadcom-rgdriver-bspeed
+License: CLOSED
+Priority: optional
+
+Package: kernel-module-dqnet-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-dqnet
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 056046dc61971132eea4f75398444521
+Size: 191008
+Filename: kernel-module-dqnet-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: dqnet kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ebt-802-3-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ebt-802-3
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f634939ea151621e9010691356ce8909
+Size: 8546
+Filename: kernel-module-ebt-802-3-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ebt-802-3 kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ebt-among-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ebt-among
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6aea53f5adfa6ddeb3b8d36482ee3d88
+Size: 12462
+Filename: kernel-module-ebt-among-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ebt-among kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ebt-arpreply-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ebt-arpreply
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: de17f6244f9bb262457016cfb599bec0
+Size: 9244
+Filename: kernel-module-ebt-arpreply-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ebt-arpreply kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ebt-dhcpsnoop-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-ebt-dhcpsnoop-db-5.15.153-prod-25.1-pd
+Provides: kernel-module-ebt-dhcpsnoop
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4fd9e0a59feabbf059b23deddfc3fca6
+Size: 19696
+Filename: kernel-module-ebt-dhcpsnoop-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ebt-dhcpsnoop kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ebt-dhcpsnoop-db-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ebt-dhcpsnoop-db
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 465fd22210d100598cf0de45c35888ff
+Size: 22036
+Filename: kernel-module-ebt-dhcpsnoop-db-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ebt-dhcpsnoop-db kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ebt-limit-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ebt-limit
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fc78a129badf8e2eaac8f2cfb7f58e47
+Size: 12102
+Filename: kernel-module-ebt-limit-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ebt-limit kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ebt-log-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ebt-log
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 40e270752f06e86c6d41aaf964e29352
+Size: 14562
+Filename: kernel-module-ebt-log-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ebt-log kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ebt-mark-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ebt-mark
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c86205c17c52a21162e378c97dafe9b8
+Size: 9848
+Filename: kernel-module-ebt-mark-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ebt-mark kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ebt-mark-m-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ebt-mark-m
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 778266a72199174524db2bec9496ae9e
+Size: 10206
+Filename: kernel-module-ebt-mark-m-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ebt-mark-m kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ebt-nflog-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ebt-nflog
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 52bf531a50914a335366cdb72ef54b3f
+Size: 8622
+Filename: kernel-module-ebt-nflog-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ebt-nflog kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ebt-pkttype-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ebt-pkttype
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c3d02b74c740c388ade3f6182e800680
+Size: 7828
+Filename: kernel-module-ebt-pkttype-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ebt-pkttype kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ebt-redirect-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ebt-redirect
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4b83af9478487cb38732e2badc1d5e2b
+Size: 8950
+Filename: kernel-module-ebt-redirect-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ebt-redirect kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ebt-stp-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ebt-stp
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5eb33190faefbdae55b9919c35d0efbd
+Size: 11010
+Filename: kernel-module-ebt-stp-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ebt-stp kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ebt-vlan-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ebt-vlan
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8db661b04cb2eaaab31d035ea3e89488
+Size: 10646
+Filename: kernel-module-ebt-vlan-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ebt-vlan kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ebtable-broute-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ebtable-broute
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8d8382c009ee866bda133fac094e2d7a
+Size: 10234
+Filename: kernel-module-ebtable-broute-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ebtable-broute kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-flowmgr-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-flowmgr
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d05d67c6b3433f5000e3a2e149efea2b
+Size: 353694
+Filename: kernel-module-flowmgr-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: flowmgr kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-flowmgr-sfap-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-flowmgr-5.15.153-prod-25.1-pd, kernel-module-sfap-5.15.153-prod-25.1-pd
+Provides: kernel-module-flowmgr-sfap
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2eabf4d6a6cedb661ff405a3591c1aa4
+Size: 8076
+Filename: kernel-module-flowmgr-sfap-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: flowmgr-sfap kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ip6t-npt-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ip6t-npt
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 240cf1975e237e1e38aa67b1d07eec7b
+Size: 11898
+Filename: kernel-module-ip6t-npt-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ip6t-npt kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ip6table-nat-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ip6table-nat
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0432984d2de1dc4c13894a47ff221cbc
+Size: 10550
+Filename: kernel-module-ip6table-nat-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ip6table-nat kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ipt-ecn-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-ipt-ecn
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4e560ab45be436f98380c8028f4aed16
+Size: 11040
+Filename: kernel-module-ipt-ecn-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: ipt-ecn kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-iptable-nat-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-iptable-nat
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 48270dea0b00665e9dcb1bc9bc4bea6c
+Size: 10588
+Filename: kernel-module-iptable-nat-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: iptable-nat kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-macpt-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-macpt
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c1ed47a87600a345d9aec6c6ae5de5db
+Size: 44340
+Filename: kernel-module-macpt-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: macpt kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-mdio-bcm-unimac-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-mdio-bcm-unimac
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 38237cc6e576d35d1efe9d6b955441fa
+Size: 16190
+Filename: kernel-module-mdio-bcm-unimac-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: mdio-bcm-unimac kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-mdqm-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-mdqm
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 31f2c9bc2e4c6bea7de3dbc61e0461d8
+Size: 37520
+Filename: kernel-module-mdqm-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: mdqm kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-mpls-gso-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-mpls-gso
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3b1a67eff3d5b4e63246db28fb5e047f
+Size: 8758
+Filename: kernel-module-mpls-gso-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: mpls-gso kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nat46-5.15.153-prod-25.1-pd
+Version: 1.0+git0+80dda1d08e-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-flowmgr-5.15.153-prod-25.1-pd
+Provides: kernel-module-nat46
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ac94b848bba5d308ba948bf738c0c39a
+Size: 17598
+Filename: kernel-module-nat46-5.15.153-prod-25.1-pd_1.0+git0+80dda1d08e-r0_xb10.ipk
+Source: nat46.bb
+Description: nat46 kernel module
+OE: nat46
+License: CLOSED
+Priority: optional
+
+Package: kernel-module-nf-conntrack-ftp-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-conntrack-ftp
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4aa67c36eba45dc5faa937b68d40a6f0
+Size: 23896
+Filename: kernel-module-nf-conntrack-ftp-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-conntrack-ftp kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-h323-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-conntrack-h323
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c4655f03a68ac0b71a8f127e5f8603a9
+Size: 61538
+Filename: kernel-module-nf-conntrack-h323-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-conntrack-h323 kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-ipsec-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-conntrack-ipsec
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ffd571e2d7f2364573f81b47ca017657
+Size: 19138
+Filename: kernel-module-nf-conntrack-ipsec-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-conntrack-ipsec kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-irc-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-conntrack-irc
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7d13357777be2b3483d5549e183231f5
+Size: 18364
+Filename: kernel-module-nf-conntrack-irc-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-conntrack-irc kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-netlink-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-conntrack-netlink
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 937269cc1cf73ab54d1cf428c7ec5814
+Size: 73384
+Filename: kernel-module-nf-conntrack-netlink-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-conntrack-netlink kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-pptp-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-conntrack-pptp
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7f613288f1e2a560dcc21d2f18665e5c
+Size: 25582
+Filename: kernel-module-nf-conntrack-pptp-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-conntrack-pptp kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-rsvp-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-conntrack-rsvp
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 76e28ff11e220690106d26c8e41a7788
+Size: 15558
+Filename: kernel-module-nf-conntrack-rsvp-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-conntrack-rsvp kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-rtsp-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-conntrack-rtsp
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f180d535cfa41f800f71c0e5d63eea71
+Size: 26242
+Filename: kernel-module-nf-conntrack-rtsp-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-conntrack-rtsp kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-sip-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-conntrack-sip
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6366b93c56377b67c8005759baa9230d
+Size: 38154
+Filename: kernel-module-nf-conntrack-sip-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-conntrack-sip kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-tftp-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-conntrack-tftp
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8000535a68e0d3edbed86a8ced81b181
+Size: 12494
+Filename: kernel-module-nf-conntrack-tftp-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-conntrack-tftp kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-defrag-ipv6-notrack-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-defrag-ipv6-notrack
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 01bc961002ee5196def29a7ecef9f370
+Size: 9098
+Filename: kernel-module-nf-defrag-ipv6-notrack-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-defrag-ipv6-notrack kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-icmp-check-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-icmp-check
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 59f6cec1ee6108c9344cb6a40d7b8ab9
+Size: 11624
+Filename: kernel-module-nf-icmp-check-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-icmp-check kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-ipv4-frag-drop-for-wan-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-ipv4-frag-drop-for-wan
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 156f1a189481c385a8a37fd7cd33cf82
+Size: 9118
+Filename: kernel-module-nf-ipv4-frag-drop-for-wan-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-ipv4-frag-drop-for-wan kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-ftp-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-ftp-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-nat-ftp
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1e0246cee7f3952eb6ca179f83dd23bc
+Size: 11082
+Filename: kernel-module-nf-nat-ftp-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-nat-ftp kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-h323-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-h323-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-nat-h323
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a9eafbb68c840e40abd5d88c8bea0c7c
+Size: 19774
+Filename: kernel-module-nf-nat-h323-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-nat-h323 kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-ipsec-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-ipsec-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-nat-ipsec
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e787549ef0591a49bd446a6a5140dede
+Size: 9034
+Filename: kernel-module-nf-nat-ipsec-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-nat-ipsec kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-irc-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-irc-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-nat-irc
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c67d7f342beffa1f78e021ffb1d5c5bc
+Size: 10514
+Filename: kernel-module-nf-nat-irc-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-nat-irc kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-loopback-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-nat-loopback
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c4b4e1eccdbf46008c093da046e58ac4
+Size: 15968
+Filename: kernel-module-nf-nat-loopback-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-nat-loopback kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-pptp-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-pptp-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-nat-pptp
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: baa92486a72e60eadc62db7542683308
+Size: 14454
+Filename: kernel-module-nf-nat-pptp-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-nat-pptp kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-pt-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-nat-pt
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c79b204f0f2df25d53900b9eb257e85b
+Size: 16462
+Filename: kernel-module-nf-nat-pt-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-nat-pt kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-rsvp-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-rsvp-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-nat-rsvp
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 390ee4338de2e8a08f477a34b3f3a1ab
+Size: 8456
+Filename: kernel-module-nf-nat-rsvp-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-nat-rsvp kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-rtsp-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-rtsp-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-nat-rtsp
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 162d71e7803672175a2bbb8785bb75be
+Size: 19262
+Filename: kernel-module-nf-nat-rtsp-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-nat-rtsp kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-sip-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-sip-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-nat-sip
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c2e11e97351bc26879b914af84968787
+Size: 22656
+Filename: kernel-module-nf-nat-sip-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-nat-sip kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-tftp-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-tftp-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-nat-tftp
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 31becf6b60a525141e5e44ee7f14cdfe
+Size: 8654
+Filename: kernel-module-nf-nat-tftp-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-nat-tftp kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-socket-ipv4-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-socket-ipv4
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ceeca0ea868637e96a9c47d9bcf113dd
+Size: 13630
+Filename: kernel-module-nf-socket-ipv4-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-socket-ipv4 kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-socket-ipv6-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nf-socket-ipv6
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 18ac808885634342f9463a3b5282b7e8
+Size: 10730
+Filename: kernel-module-nf-socket-ipv6-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nf-socket-ipv6 kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nlmon-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nlmon
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1a4f45ba1179174b2de48ef85e548278
+Size: 18910
+Filename: kernel-module-nlmon-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nlmon kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nsh-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-nsh
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 32fbe0a3a0e6f0c85fe27e3a8a1e3aec
+Size: 12608
+Filename: kernel-module-nsh-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: nsh kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-openvswitch-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-nsh-5.15.153-prod-25.1-pd
+Provides: kernel-module-openvswitch
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 01f61c216dcc874be38a63c72dc7faba
+Size: 286816
+Filename: kernel-module-openvswitch-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: openvswitch kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rdkfmac-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-rdkfmac
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3b6ca21412358c21003554b9bb243475
+Size: 929798
+Filename: kernel-module-rdkfmac-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: rdkfmac kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-sfap-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-sfap
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 313cea788354d5d437802aad6593bee2
+Size: 56528
+Filename: kernel-module-sfap-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: sfap kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-sit-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-tunnel4-5.15.153-prod-25.1-pd
+Provides: kernel-module-sit
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8bd2d74f9f0384f9b0a0e182e8c7738d
+Size: 54190
+Filename: kernel-module-sit-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: sit kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-spi-loopback-test-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-spi-loopback-test
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 75482e68b066ac16ed8e74a439486e66
+Size: 21678
+Filename: kernel-module-spi-loopback-test-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: spi-loopback-test kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-tcrypt-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-tcrypt
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: db672a80a0d49aa6310a0fed984335c4
+Size: 54744
+Filename: kernel-module-tcrypt-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: tcrypt kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-tun-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-tun
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a4ad4f8e375763e0c21ff3ce9630254a
+Size: 109492
+Filename: kernel-module-tun-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: tun kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-tunnel4-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-tunnel4
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5849dc0d5f24452642b5a30cb5d71597
+Size: 11550
+Filename: kernel-module-tunnel4-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: tunnel4 kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-unimac-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-unimac
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 068a9998a4e5c901a76bda18faa7fb2a
+Size: 37768
+Filename: kernel-module-unimac-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: unimac kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-vfbio-oops-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-vfbio-oops
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cc415ba63d79550f9c8148c30e4af7e0
+Size: 16542
+Filename: kernel-module-vfbio-oops-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: vfbio-oops kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-wps-gpio-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-wps-gpio
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 11aa3c57fb33fd0f229b08084492d98b
+Size: 16958
+Filename: kernel-module-wps-gpio-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: wps-gpio kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xmeshgre-5.15.153-prod-25.1-pd
+Version: 1.0-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-xmeshgre
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0d5087694bd141d3e22aa59195c05a65
+Size: 3410
+Filename: kernel-module-xmeshgre-5.15.153-prod-25.1-pd_1.0-r0_xb10.ipk
+Source: meshdscpinherit.bb
+Description: xmeshgre kernel module
+OE: meshdscpinherit
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-classify-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-xt-classify
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 37859a7685629f41a3f79ef44d28270f
+Size: 7638
+Filename: kernel-module-xt-classify-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: xt-classify kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-connbytes-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-xt-connbytes
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 320089905fdac3b1c73eb23f3dfea235
+Size: 10616
+Filename: kernel-module-xt-connbytes-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: xt-connbytes kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-helper-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-xt-helper
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a8b5112b8b2c7b5c0d8221440b7f5451
+Size: 9580
+Filename: kernel-module-xt-helper-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: xt-helper kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-l2ogre-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-xt-l2ogre
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: abb3d672de1927614f5e519dbfecef6c
+Size: 18590
+Filename: kernel-module-xt-l2ogre-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: xt-l2ogre kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-masquerade-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-xt-masquerade
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7fbd6739b85274639c56cb17cfba60cf
+Size: 9712
+Filename: kernel-module-xt-masquerade-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: xt-masquerade kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-nat-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-xt-nat
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 754d013ad56cbc17790e5f74fb9f4cb3
+Size: 10814
+Filename: kernel-module-xt-nat-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: xt-nat kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-netmap-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-xt-netmap
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 12172f33d1af8f4ec537758f639924e6
+Size: 10894
+Filename: kernel-module-xt-netmap-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: xt-netmap kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-skipctoffload-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-xt-skipctoffload
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d87ee4edf388affc56501b512d5afaa3
+Size: 8480
+Filename: kernel-module-xt-skipctoffload-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: xt-skipctoffload kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-socket-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd, kernel-module-nf-socket-ipv4-5.15.153-prod-25.1-pd, kernel-module-nf-socket-ipv6-5.15.153-prod-25.1-pd
+Provides: kernel-module-xt-socket
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b29d281fd0a868d733b55d41e9e4e981
+Size: 11796
+Filename: kernel-module-xt-socket-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: xt-socket kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-statistic-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-xt-statistic
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 80a12e9d9ef91b59ce8a92aa5f552082
+Size: 10648
+Filename: kernel-module-xt-statistic-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: xt-statistic kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-tcpmss-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-xt-tcpmss
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fccd15b7a6869236641041fda3337065
+Size: 9278
+Filename: kernel-module-xt-tcpmss-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: xt-tcpmss kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-time-5.15.153-prod-25.1-pd
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd
+Provides: kernel-module-xt-time
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7b11ca758a0a86771f23323df1cc9fa9
+Size: 10046
+Filename: kernel-module-xt-time-5.15.153-prod-25.1-pd_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: xt-time kernel module
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-modules
+Version: 5.15-r0
+Depends: kernel-module-arpt-mangle-5.15.153-prod-25.1-pd, kernel-module-arptable-filter-5.15.153-prod-25.1-pd, kernel-module-bcm-flexrm-mailbox-5.15.153-prod-25.1-pd, kernel-module-bcm-pdc-mailbox-5.15.153-prod-25.1-pd, kernel-module-bcm-phy-lib-5.15.153-prod-25.1-pd, kernel-module-bcm5xxx-5.15.153-prod-25.1-pd, kernel-module-bcm6802-5.15.153-prod-25.1-pd, kernel-module-bcm9339x-5.15.153-prod-25.1-pd, kernel-module-bmoca-5.15.153-prod-25.1-pd, kernel-module-bonding-5.15.153-prod-25.1-pd, kernel-module-dqnet-5.15.153-prod-25.1-pd, kernel-module-ebt-802-3-5.15.153-prod-25.1-pd, kernel-module-ebt-among-5.15.153-prod-25.1-pd, kernel-module-ebt-arpreply-5.15.153-prod-25.1-pd, kernel-module-ebt-dhcpsnoop-5.15.153-prod-25.1-pd, kernel-module-ebt-dhcpsnoop-db-5.15.153-prod-25.1-pd, kernel-module-ebt-limit-5.15.153-prod-25.1-pd, kernel-module-ebt-log-5.15.153-prod-25.1-pd, kernel-module-ebt-mark-5.15.153-prod-25.1-pd, kernel-module-ebt-mark-m-5.15.153-prod-25.1-pd, kernel-module-ebt-nflog-5.15.153-prod-25.1-pd, kernel-module-ebt-pkttype-5.15.153-prod-25.1-pd, kernel-module-ebt-redirect-5.15.153-prod-25.1-pd, kernel-module-ebt-stp-5.15.153-prod-25.1-pd, kernel-module-ebt-vlan-5.15.153-prod-25.1-pd, kernel-module-ebtable-broute-5.15.153-prod-25.1-pd, kernel-module-flowmgr-5.15.153-prod-25.1-pd, kernel-module-flowmgr-sfap-5.15.153-prod-25.1-pd, kernel-module-ip6t-npt-5.15.153-prod-25.1-pd, kernel-module-ip6table-nat-5.15.153-prod-25.1-pd, kernel-module-ipt-ecn-5.15.153-prod-25.1-pd, kernel-module-iptable-nat-5.15.153-prod-25.1-pd, kernel-module-macpt-5.15.153-prod-25.1-pd, kernel-module-mdio-bcm-unimac-5.15.153-prod-25.1-pd, kernel-module-mdqm-5.15.153-prod-25.1-pd, kernel-module-mpls-gso-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-ftp-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-h323-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-ipsec-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-irc-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-netlink-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-pptp-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-rsvp-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-rtsp-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-sip-5.15.153-prod-25.1-pd, kernel-module-nf-conntrack-tftp-5.15.153-prod-25.1-pd, kernel-module-nf-defrag-ipv6-notrack-5.15.153-prod-25.1-pd, kernel-module-nf-icmp-check-5.15.153-prod-25.1-pd, kernel-module-nf-ipv4-frag-drop-for-wan-5.15.153-prod-25.1-pd, kernel-module-nf-nat-ftp-5.15.153-prod-25.1-pd, kernel-module-nf-nat-h323-5.15.153-prod-25.1-pd, kernel-module-nf-nat-ipsec-5.15.153-prod-25.1-pd, kernel-module-nf-nat-irc-5.15.153-prod-25.1-pd, kernel-module-nf-nat-loopback-5.15.153-prod-25.1-pd, kernel-module-nf-nat-pptp-5.15.153-prod-25.1-pd, kernel-module-nf-nat-pt-5.15.153-prod-25.1-pd, kernel-module-nf-nat-rsvp-5.15.153-prod-25.1-pd, kernel-module-nf-nat-rtsp-5.15.153-prod-25.1-pd, kernel-module-nf-nat-sip-5.15.153-prod-25.1-pd, kernel-module-nf-nat-tftp-5.15.153-prod-25.1-pd, kernel-module-nf-socket-ipv4-5.15.153-prod-25.1-pd, kernel-module-nf-socket-ipv6-5.15.153-prod-25.1-pd, kernel-module-nlmon-5.15.153-prod-25.1-pd, kernel-module-nsh-5.15.153-prod-25.1-pd, kernel-module-openvswitch-5.15.153-prod-25.1-pd, kernel-module-rdkfmac-5.15.153-prod-25.1-pd, kernel-module-sfap-5.15.153-prod-25.1-pd, kernel-module-sit-5.15.153-prod-25.1-pd, kernel-module-spi-loopback-test-5.15.153-prod-25.1-pd, kernel-module-tcrypt-5.15.153-prod-25.1-pd, kernel-module-tun-5.15.153-prod-25.1-pd, kernel-module-tunnel4-5.15.153-prod-25.1-pd, kernel-module-unimac-5.15.153-prod-25.1-pd, kernel-module-vfbio-oops-5.15.153-prod-25.1-pd, kernel-module-wps-gpio-5.15.153-prod-25.1-pd, kernel-module-xt-classify-5.15.153-prod-25.1-pd, kernel-module-xt-connbytes-5.15.153-prod-25.1-pd, kernel-module-xt-helper-5.15.153-prod-25.1-pd, kernel-module-xt-l2ogre-5.15.153-prod-25.1-pd, kernel-module-xt-masquerade-5.15.153-prod-25.1-pd, kernel-module-xt-nat-5.15.153-prod-25.1-pd, kernel-module-xt-netmap-5.15.153-prod-25.1-pd, kernel-module-xt-skipctoffload-5.15.153-prod-25.1-pd, kernel-module-xt-socket-5.15.153-prod-25.1-pd, kernel-module-xt-statistic-5.15.153-prod-25.1-pd, kernel-module-xt-tcpmss-5.15.153-prod-25.1-pd, kernel-module-xt-time-5.15.153-prod-25.1-pd
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5e73ef16ce76e9c078a303774f62753b
+Size: 1180
+Filename: kernel-modules_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: enabling gdb for comcast dev jenkins builds
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel-vmlinux
+Version: 5.15-r0
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8488fbc669427861bdb12e8d61a9899d
+Size: 25464844
+Filename: kernel-vmlinux_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: enabling gdb for comcast dev jenkins builds
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: kernel
+Version: 5.15-r0
+Depends: kernel-5.15.153-prod-25.1-pd (= 5.15-r0)
+Section: kernel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a0bca362d6d1be9315a6ed3e17763090
+Size: 660
+Filename: kernel_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: enabling gdb for comcast dev jenkins builds
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: make-mod-scripts-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 987ee5f5c585ff7d43caf885de1fdff2
+Size: 720
+Filename: make-mod-scripts-dbg_1.0-r0_xb10.ipk
+Source: make-mod-scripts_1.0.bb
+Description: Build tools needed by external modules - Debugging files
+OE: make-mod-scripts
+HomePage: https://www.yoctoproject.org/
+License: GPL-2.0-only
+Priority: optional
+
+Package: make-mod-scripts-dev
+Version: 1.0-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 829b519da31a9fb21dff3e1b1100f580
+Size: 732
+Filename: make-mod-scripts-dev_1.0-r0_xb10.ipk
+Source: make-mod-scripts_1.0.bb
+Description: Build tools needed by external modules - Development files
+OE: make-mod-scripts
+HomePage: https://www.yoctoproject.org/
+License: GPL-2.0-only
+Priority: optional
+
+Package: meminsight-dbg
+Version: 1.0-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9a5a196670a3397d6511f5a09c9dd854
+Size: 19312
+Filename: meminsight-dbg_1.0-r0_xb10.ipk
+Source: meminsight_git.bb
+Description: Memory insight utility and runner service - Debugging files
+OE: meminsight
+License: Apache-2.0
+Priority: optional
+
+Package: meminsight-dev
+Version: 1.0-r0
+Depends: meminsight (= 1.0-r0)
+Recommends: glibc-dev, meminsight-dl-dev
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 78738000274e1938df01da03d24e6e89
+Size: 772
+Filename: meminsight-dev_1.0-r0_xb10.ipk
+Source: meminsight_git.bb
+Description: Memory insight utility and runner service - Development files
+OE: meminsight
+License: Apache-2.0
+Priority: optional
+
+Package: meminsight-dl
+Version: 1.0-r0
+Depends: libc6 (>= 2.35)
+Section: console/utils
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 796f31c855362c58efc15205abe1d3b6
+Size: 10768
+Filename: meminsight-dl_1.0-r0_xb10.ipk
+Source: meminsight_git.bb
+Description: Memory insight utility and runner service
+OE: meminsight
+License: Apache-2.0
+Priority: optional
+
+Package: meminsight-src
+Version: 1.0-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8633f95af28f43fb6c5b77f2ae72af4b
+Size: 14090
+Filename: meminsight-src_1.0-r0_xb10.ipk
+Source: meminsight_git.bb
+Description: Memory insight utility and runner service - Source files
+OE: meminsight
+License: Apache-2.0
+Priority: optional
+
+Package: meminsight
+Version: 1.0-r0
+Depends: meminsight-dl
+Section: console/utils
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 295bc260f6222e79091668e4338aa4a2
+Size: 2190
+Filename: meminsight_1.0-r0_xb10.ipk
+Source: meminsight_git.bb
+Description: Memory insight utility and runner service
+OE: meminsight
+License: Apache-2.0
+Priority: optional
+
+Package: meshdscpinherit-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b9577b7535d670d31139eee783d1f788
+Size: 10756
+Filename: meshdscpinherit-dbg_1.0-r0_xb10.ipk
+Source: meshdscpinherit.bb
+Description: xmeshgre Linux kernel module - Debugging files
+OE: meshdscpinherit
+License: GPLv2
+Priority: optional
+
+Package: meshdscpinherit-dev
+Version: 1.0-r0
+Depends: meshdscpinherit (= 1.0-r0)
+Recommends: kernel-5.15.153-prod-25.1-pd-dev, kernel-module-xmeshgre-5.15.153-prod-25.1-pd-dev
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f96255174a05af8c3c1a529228a47a43
+Size: 744
+Filename: meshdscpinherit-dev_1.0-r0_xb10.ipk
+Source: meshdscpinherit.bb
+Description: xmeshgre Linux kernel module - Development files
+OE: meshdscpinherit
+License: GPLv2
+Priority: optional
+
+Package: meshdscpinherit-src
+Version: 1.0-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c0182395d734165dfc38be576c959511
+Size: 2884
+Filename: meshdscpinherit-src_1.0-r0_xb10.ipk
+Source: meshdscpinherit.bb
+Description: xmeshgre Linux kernel module - Source files
+OE: meshdscpinherit
+License: GPLv2
+Priority: optional
+
+Package: meshdscpinherit
+Version: 1.0-r0
+Depends: kernel-module-xmeshgre-5.15.153-prod-25.1-pd
+Provides: xmeshgre
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 272f2c7a64b74129c96390721782e26d
+Size: 646
+Filename: meshdscpinherit_1.0-r0_xb10.ipk
+Source: meshdscpinherit.bb
+Description: xmeshgre Linux kernel module
+OE: meshdscpinherit
+License: GPLv2
+Priority: optional
+
+Package: nat46-dbg
+Version: 1.0+git0+80dda1d08e-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5a04dcf08e6c4974eaeaa09df4c81418
+Size: 47398
+Filename: nat46-dbg_1.0+git0+80dda1d08e-r0_xb10.ipk
+Source: nat46.bb
+Description: MAP-T NAT46 - Debugging files
+OE: nat46
+License: CLOSED
+Priority: optional
+
+Package: nat46-dev
+Version: 1.0+git0+80dda1d08e-r0
+Depends: nat46 (= 1.0+git0+80dda1d08e-r0)
+Recommends: kernel-5.15.153-prod-25.1-pd-dev, kernel-module-flowmgr-5.15.153-prod-25.1-pd-dev, kernel-module-nat46-5.15.153-prod-25.1-pd-dev
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8492147ffbe06d0910bae0912346443b
+Size: 868
+Filename: nat46-dev_1.0+git0+80dda1d08e-r0_xb10.ipk
+Source: nat46.bb
+Description: MAP-T NAT46 - Development files
+OE: nat46
+License: CLOSED
+Priority: optional
+
+Package: nat46-src
+Version: 1.0+git0+80dda1d08e-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 99dff5dd8c4929c524eafab2d5ab0b0b
+Size: 21498
+Filename: nat46-src_1.0+git0+80dda1d08e-r0_xb10.ipk
+Source: nat46.bb
+Description: MAP-T NAT46 - Source files
+OE: nat46
+License: CLOSED
+Priority: optional
+
+Package: nat46
+Version: 1.0+git0+80dda1d08e-r0
+Depends: kernel-module-nat46-5.15.153-prod-25.1-pd
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e7b074e72aa7981cecd252b2a74d1bfe
+Size: 636
+Filename: nat46_1.0+git0+80dda1d08e-r0_xb10.ipk
+Source: nat46.bb
+Description: MAP-T NAT46
+OE: nat46
+License: CLOSED
+Priority: optional
+
+Package: openvswitch-dbg
+Version: 2.17.1+0+41bb202fb3-r0
+Recommends: glibc-dbg, libatomic-dbg, libcap-ng-dbg, libcrypto-dbg, libssl-dbg, openssl-config-lib-dbg
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4816e7b87bae9d98a62b428933c2129d
+Size: 3946952
+Filename: openvswitch-dbg_2.17.1+0+41bb202fb3-r0_xb10.ipk
+Source: openvswitch_git.bb
+Description: OpenvSwitch - Debugging files
+OE: openvswitch
+HomePage: http://openvswitch.org/
+License: Apache-2.0
+Priority: optional
+
+Package: openvswitch-dev
+Version: 2.17.1+0+41bb202fb3-r0
+Depends: openvswitch (= 2.17.1+0+41bb202fb3-r0)
+Recommends: bash-dev, glibc-dev, libatomic-dev, libcap-ng-dev, libcrypto-dev, libssl-dev, openssl-config-lib-dev, openssl-dev, openvswitch-pki-dev, openvswitch-switch-dev, python3-dev, sed-dev, util-linux-uuidgen-dev
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c63c2c825bb50dabb5cb1f4d6a2caee0
+Size: 111950
+Filename: openvswitch-dev_2.17.1+0+41bb202fb3-r0_xb10.ipk
+Source: openvswitch_git.bb
+Description: OpenvSwitch - Development files
+OE: openvswitch
+HomePage: http://openvswitch.org/
+License: Apache-2.0
+Priority: optional
+
+Package: openvswitch-ovsdb
+Version: 2.17.1+0+41bb202fb3-r0
+Depends: libc6 (>= 2.35), openvswitch (>= 2.17.1+0+41bb202fb3)
+Section: networking
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a82408337b46aba9b2e48b92a4180df2
+Size: 54528
+Filename: openvswitch-ovsdb_2.17.1+0+41bb202fb3-r0_xb10.ipk
+Source: openvswitch_git.bb
+Description: OpenvSwitch
+OE: openvswitch
+HomePage: http://openvswitch.org/
+License: Apache-2.0
+Priority: optional
+
+Package: openvswitch-pki
+Version: 2.17.1+0+41bb202fb3-r0
+Depends: openvswitch
+Section: networking
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dcbd1ddf0df89b3005c8baa4b3d0b54e
+Size: 1012
+Filename: openvswitch-pki_2.17.1+0+41bb202fb3-r0_xb10.ipk
+Source: openvswitch_git.bb
+Description: OpenvSwitch
+OE: openvswitch
+HomePage: http://openvswitch.org/
+License: Apache-2.0
+Priority: optional
+
+Package: openvswitch-src
+Version: 2.17.1+0+41bb202fb3-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d35c0a72c270f183a79d7b8b8c4b3d5a
+Size: 1748866
+Filename: openvswitch-src_2.17.1+0+41bb202fb3-r0_xb10.ipk
+Source: openvswitch_git.bb
+Description: OpenvSwitch - Source files
+OE: openvswitch
+HomePage: http://openvswitch.org/
+License: Apache-2.0
+Priority: optional
+
+Package: openvswitch-staticdev
+Version: 2.17.1+0+41bb202fb3-r0
+Depends: openvswitch-dev (= 2.17.1+0+41bb202fb3-r0)
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 099e152b3e77cd317e221ad11f1f4142
+Size: 5874172
+Filename: openvswitch-staticdev_2.17.1+0+41bb202fb3-r0_xb10.ipk
+Source: openvswitch_git.bb
+Description: OpenvSwitch - Development files (Static Libraries)
+OE: openvswitch
+HomePage: http://openvswitch.org/
+License: Apache-2.0
+Priority: optional
+
+Package: openvswitch-switch
+Version: 2.17.1+0+41bb202fb3-r0
+Depends: libc6 (>= 2.35), openssl, openvswitch (>= 2.17.1+0+41bb202fb3), util-linux-uuidgen
+Section: networking
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b8c4770cbf3194d694758ea6d6e003c8
+Size: 61540
+Filename: openvswitch-switch_2.17.1+0+41bb202fb3-r0_xb10.ipk
+Source: openvswitch_git.bb
+Description: OpenvSwitch
+OE: openvswitch
+HomePage: http://openvswitch.org/
+License: Apache-2.0
+Priority: optional
+
+Package: openvswitch-testcontroller
+Version: 2.17.1+0+41bb202fb3-r0
+Depends: libc6 (>= 2.35), openvswitch (>= 2.17.1+0+41bb202fb3), openvswitch-pki
+Section: networking
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e5f757c835a06c1a3cb90abdb6df8a53
+Size: 9310
+Filename: openvswitch-testcontroller_2.17.1+0+41bb202fb3-r0_xb10.ipk
+Source: openvswitch_git.bb
+Description: OpenvSwitch
+OE: openvswitch
+HomePage: http://openvswitch.org/
+License: Apache-2.0
+Priority: optional
+
+Package: openvswitch
+Version: 2.17.1+0+41bb202fb3-r0
+Depends: bash, libatomic1 (>= 11.3.0), libc6 (>= 2.35), libcap-ng (>= 0.8.2), libcrypto3 (>= 3.0.5), libopenssl-config-lib0 (>= 1.0), libssl3 (>= 3.0.5), sed
+Section: networking
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 389c2e0b55e6cbb1dd366e985b761083
+Size: 1169492
+Filename: openvswitch_2.17.1+0+41bb202fb3-r0_xb10.ipk
+Source: openvswitch_git.bb
+Description: OpenvSwitch
+OE: openvswitch
+HomePage: http://openvswitch.org/
+License: Apache-2.0
+Priority: optional
+
+Package: opkg-arch-config-dbg
+Version: 1.0-r1
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8b67b04b38c4d5c949fd75f0fd23918b
+Size: 708
+Filename: opkg-arch-config-dbg_1.0-r1_xb10.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Debugging files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config-dev
+Version: 1.0-r1
+Depends: opkg-arch-config (= 1.0-r1)
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: be40b365830de4f58da9d4da3f977d04
+Size: 740
+Filename: opkg-arch-config-dev_1.0-r1_xb10.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Development files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config
+Version: 1.0-r1
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 797736b4b66e900127be70ef26815b78
+Size: 882
+Filename: opkg-arch-config_1.0-r1_xb10.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-bluetooth-dbg
+Version: 1.0-r83
+Recommends: bluez5-dbg
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 07d5de239aa46ac3d9bddea3ec9018e8
+Size: 656
+Filename: packagegroup-base-bluetooth-dbg_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-base-bluetooth-dev
+Version: 1.0-r83
+Recommends: bluez5-dev
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ca4fec5bd3d68c47a52398514509382e
+Size: 656
+Filename: packagegroup-base-bluetooth-dev_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-base-bluetooth
+Version: 1.0-r83
+Depends: bluez5
+Recommends: kernel-module-bluetooth, kernel-module-bnep, kernel-module-hci-uart, kernel-module-hci-usb, kernel-module-hci-vhci, kernel-module-hidp, kernel-module-l2cap, kernel-module-rfcomm, kernel-module-sco
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: facad1151bf14d4fabcfa66911bce783
+Size: 714
+Filename: packagegroup-base-bluetooth_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Bluetooth support
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-base-dbg
+Version: 1.0-r83
+Recommends: module-init-tools-dbg, packagegroup-base-ipv6-dbg, packagegroup-base-usbhost-dbg, packagegroup-distro-base-dbg, packagegroup-machine-base-dbg
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 77a6678edc95b419afb677f5bc3724fe
+Size: 748
+Filename: packagegroup-base-dbg_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package - Debugging files
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-base-dev
+Version: 1.0-r83
+Depends: packagegroup-base (= 1.0-r83)
+Recommends: module-init-tools-dev, packagegroup-base-ipv6-dev, packagegroup-base-usbhost-dev, packagegroup-distro-base-dev, packagegroup-machine-base-dev
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1c21eb9d137db469aaa97afba3dd676a
+Size: 772
+Filename: packagegroup-base-dev_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package - Development files
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-base-extended-dbg
+Version: 1.0-r83
+Recommends: packagegroup-base-bluetooth-dbg, packagegroup-base-dbg
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cab35270a36aa1846bf1c7ac77260ed9
+Size: 664
+Filename: packagegroup-base-extended-dbg_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-base-extended-dev
+Version: 1.0-r83
+Recommends: packagegroup-base-bluetooth-dev, packagegroup-base-dev
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9cdc16dd1d6341373591e95447c5821e
+Size: 664
+Filename: packagegroup-base-extended-dev_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-base-extended
+Version: 1.0-r83
+Depends: packagegroup-base, packagegroup-base-bluetooth
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b0a501f15aa26e73611f4fb56bb2ae95
+Size: 652
+Filename: packagegroup-base-extended_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-base-ipv6-dbg
+Version: 1.0-r83
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cec6b2921fec8d563df057a9a47d3595
+Size: 638
+Filename: packagegroup-base-ipv6-dbg_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-base-ipv6-dev
+Version: 1.0-r83
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 91a0bed65ddae1c645c7e799f2612f94
+Size: 638
+Filename: packagegroup-base-ipv6-dev_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-base-ipv6
+Version: 1.0-r83
+Recommends: kernel-module-ipv6
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9bc6ddf941325de9ff7006329f392b92
+Size: 664
+Filename: packagegroup-base-ipv6_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: IPv6 support
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-base-usbhost-dbg
+Version: 1.0-r83
+Recommends: usbutils-dbg
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a4989ca8bea0cfeffa5bb67ca2d3033c
+Size: 654
+Filename: packagegroup-base-usbhost-dbg_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-base-usbhost-dev
+Version: 1.0-r83
+Recommends: usbutils-dev
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b5b0b37c714dda54441d5ef985f1c270
+Size: 654
+Filename: packagegroup-base-usbhost-dev_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-base-usbhost
+Version: 1.0-r83
+Depends: usbutils
+Recommends: kernel-module-ehci-hcd, kernel-module-mousedev, kernel-module-ohci-hcd, kernel-module-scsi-mod, kernel-module-sd-mod, kernel-module-uhci-hcd, kernel-module-usb-storage, kernel-module-usbcore, kernel-module-usbhid, kernel-module-usbmouse, kernel-module-usbnet, kernel-module-usbserial
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 95274fc82d915d4fdd96f5b93c5de1d9
+Size: 736
+Filename: packagegroup-base-usbhost_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: USB host support
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-base
+Version: 1.0-r83
+Depends: module-init-tools, packagegroup-base-ipv6, packagegroup-base-usbhost, packagegroup-distro-base, packagegroup-machine-base
+Recommends: kernel-module-input, kernel-module-nls-utf8, kernel-module-rtc-dev, kernel-module-rtc-proc, kernel-module-rtc-sysfs, kernel-module-uinput, kernel-module-unix
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e3b6d584079def264d11441d709f3c61
+Size: 724
+Filename: packagegroup-base_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-core-boot-dbg
+Version: 1.0-r17
+Recommends: base-files-dbg, base-passwd-dbg, busybox-dbg, netbase-dbg, systemd-dbg, udev-dbg, update-alternatives-opkg-dbg
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dea482917f5296ea25780da4d6e14f2c
+Size: 762
+Filename: packagegroup-core-boot-dbg_1.0-r17_xb10.ipk
+Source: packagegroup-core-boot.bb
+Description: Minimal boot requirements - Debugging files
+OE: packagegroup-core-boot
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-core-boot-dev
+Version: 1.0-r17
+Depends: packagegroup-core-boot (= 1.0-r17)
+Recommends: base-files-dev, base-passwd-dev, busybox-dev, netbase-dev, systemd-dev, udev-dev, update-alternatives-opkg-dev
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c1f658d850f8df1ce26e72d309818d57
+Size: 788
+Filename: packagegroup-core-boot-dev_1.0-r17_xb10.ipk
+Source: packagegroup-core-boot.bb
+Description: Minimal boot requirements - Development files
+OE: packagegroup-core-boot
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-core-boot
+Version: 1.0-r17
+Depends: base-files, base-passwd, busybox, netbase, systemd, udev, update-alternatives-opkg
+Recommends: busybox-syslog
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 04c21d46558951802c636ee3bd5e2c44
+Size: 708
+Filename: packagegroup-core-boot_1.0-r17_xb10.ipk
+Source: packagegroup-core-boot.bb
+Description: Minimal boot requirements
+OE: packagegroup-core-boot
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-core-sdk-dbg
+Version: 1.0-r9
+Recommends: ccache-dbg, coreutils-dbg, diffutils-dbg, file-dbg, findutils-dbg, ldd-dbg, less-dbg, packagegroup-core-buildessential-dbg, perl-module-re-dbg, perl-module-text-wrap-dbg, quilt-dbg, tcl-dbg
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9806d76793432147951631a67fa1c5d6
+Size: 758
+Filename: packagegroup-core-sdk-dbg_1.0-r9_xb10.ipk
+Source: packagegroup-core-sdk.bb
+Description: Software development tools - Debugging files
+OE: packagegroup-core-sdk
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-core-sdk-dev
+Version: 1.0-r9
+Depends: packagegroup-core-sdk (= 1.0-r9)
+Recommends: ccache-dev, coreutils-dev, diffutils-dev, file-dev, findutils-dev, ldd-dev, less-dev, packagegroup-core-buildessential-dev, perl-module-re-dev, perl-module-text-wrap-dev, quilt-dev, tcl-dev
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d8b56799c2d8e02e864587be6e04a531
+Size: 774
+Filename: packagegroup-core-sdk-dev_1.0-r9_xb10.ipk
+Source: packagegroup-core-sdk.bb
+Description: Software development tools - Development files
+OE: packagegroup-core-sdk
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-core-sdk
+Version: 1.0-r9
+Depends: ccache, coreutils, diffutils, file, findutils, ldd, less, packagegroup-core-buildessential, perl-module-re, perl-module-text-wrap, quilt, tcl
+Recommends: libasan-dev, libgomp, libgomp-dev, libubsan-dev
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f261cac32176721e4f9f1056ebdc0d97
+Size: 716
+Filename: packagegroup-core-sdk_1.0-r9_xb10.ipk
+Source: packagegroup-core-sdk.bb
+Description: Software development tools
+OE: packagegroup-core-sdk
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-distro-base-dbg
+Version: 1.0-r83
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c64edda85cb560b99bc4e23efd811da4
+Size: 638
+Filename: packagegroup-distro-base-dbg_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-distro-base-dev
+Version: 1.0-r83
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ac19b6188f6dada6823fb996a158aaee
+Size: 638
+Filename: packagegroup-distro-base-dev_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-distro-base
+Version: 1.0-r83
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4651fb28669d6cfb50d2c56d429bd434
+Size: 638
+Filename: packagegroup-distro-base_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: rdk extras
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-machine-base-dbg
+Version: 1.0-r83
+Recommends: boops-dbg, boops-k-dbg, kernel-modules-dbg
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9e80ae10569fbd55642673fc1d3349d5
+Size: 670
+Filename: packagegroup-machine-base-dbg_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-machine-base-dev
+Version: 1.0-r83
+Recommends: boops-dev, boops-k-dev, kernel-modules-dev
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4ad7542d0a41299afafe2a83c6fe556d
+Size: 672
+Filename: packagegroup-machine-base-dev_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: packagegroup-machine-base
+Version: 1.0-r83
+Depends: boops, boops-k, kernel-modules
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5759ee8f44ffbe68bf631ff7a36b6c42
+Size: 694
+Filename: packagegroup-machine-base_1.0-r83_xb10.ipk
+Source: packagegroup-base.bb
+Description: Extra packages required to fully support xb10 hardware
+OE: packagegroup-base
+License: CLOSED
+Priority: optional
+
+Package: rglinux-src
+Version: 5.15-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3fdf3aef07b1040be1ef497dcd51ecac
+Size: 63122
+Filename: rglinux-src_5.15-r0_xb10.ipk
+Source: rglinux_5.15.bb
+Description: enabling gdb for comcast dev jenkins builds - Source files
+OE: rglinux
+License: GPLv2
+Priority: optional
+
+Package: shadow-securetty-dbg
+Version: 4.6-r3
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 793d9bf96a91a99c3cdde9eb08c5b2bb
+Size: 688
+Filename: shadow-securetty-dbg_4.6-r3_xb10.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file - Debugging files
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty-dev
+Version: 4.6-r3
+Depends: shadow-securetty (= 4.6-r3)
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3ac5c391f07ee773303a308e84e22183
+Size: 718
+Filename: shadow-securetty-dev_4.6-r3_xb10.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file - Development files
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty
+Version: 4.6-r3
+Section: base utils
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fef69808850451a3e4e654fab72a1c17
+Size: 1366
+Filename: shadow-securetty_4.6-r3_xb10.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: systemd-conf-dbg
+Version: 1:1.0-r0
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a0959a59ef203241627d5c7aa094be17
+Size: 748
+Filename: systemd-conf-dbg_1.0-r0_xb10.ipk
+Source: systemd-conf_1.0.bb
+Description: Systemd system configuration - Debugging files
+OE: systemd-conf
+License: MIT
+Priority: optional
+
+Package: systemd-conf-dev
+Version: 1:1.0-r0
+Depends: systemd-conf (= 1:1.0-r0)
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 21adf370b95441495364a7df2c994e24
+Size: 776
+Filename: systemd-conf-dev_1.0-r0_xb10.ipk
+Source: systemd-conf_1.0.bb
+Description: Systemd system configuration - Development files
+OE: systemd-conf
+License: MIT
+Priority: optional
+
+Package: systemd-conf
+Version: 1:1.0-r0
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bb51cc4e8271a2fa9b0c7d0cca09888b
+Size: 1044
+Filename: systemd-conf_1.0-r0_xb10.ipk
+Source: systemd-conf_1.0.bb
+Description: Systemd system configuration
+OE: systemd-conf
+License: MIT
+Priority: optional
+
+Package: systemd-serialgetty-dbg
+Version: 1.0-r5
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b92e92a56e282f63dbf524a3d5e51c4a
+Size: 724
+Filename: systemd-serialgetty-dbg_1.0-r5_xb10.ipk
+Source: systemd-serialgetty.bb
+Description: Serial terminal support for systemd - Debugging files
+OE: systemd-serialgetty
+HomePage: https://www.freedesktop.org/wiki/Software/systemd/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: systemd-serialgetty-dev
+Version: 1.0-r5
+Depends: systemd-serialgetty (= 1.0-r5)
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d1f822d4f7cf635b79803b180e697c63
+Size: 750
+Filename: systemd-serialgetty-dev_1.0-r5_xb10.ipk
+Source: systemd-serialgetty.bb
+Description: Serial terminal support for systemd - Development files
+OE: systemd-serialgetty
+HomePage: https://www.freedesktop.org/wiki/Software/systemd/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: systemd-serialgetty
+Version: 1.0-r5
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 41f5b1b434a6fafe96718f9a906a296f
+Size: 1654
+Filename: systemd-serialgetty_1.0-r5_xb10.ipk
+Source: systemd-serialgetty.bb
+Description: Serial terminal support for systemd
+OE: systemd-serialgetty
+HomePage: https://www.freedesktop.org/wiki/Software/systemd/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: sysvinit-inittab-dbg
+Version: 2.88dsf-r10
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fe86cb530a07d213651ffa80740f5380
+Size: 692
+Filename: sysvinit-inittab-dbg_2.88dsf-r10_xb10.ipk
+Source: sysvinit-inittab_2.88dsf.bb
+Description: Inittab configuration for SysVinit - Debugging files
+OE: sysvinit-inittab
+License: GPL-2.0-only
+Priority: optional
+
+Package: sysvinit-inittab-dev
+Version: 2.88dsf-r10
+Depends: sysvinit-inittab (= 2.88dsf-r10)
+Section: devel
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 925b4f741a3f4d35ba5b95c8d7927b84
+Size: 720
+Filename: sysvinit-inittab-dev_2.88dsf-r10_xb10.ipk
+Source: sysvinit-inittab_2.88dsf.bb
+Description: Inittab configuration for SysVinit - Development files
+OE: sysvinit-inittab
+License: GPL-2.0-only
+Priority: optional
+
+Package: sysvinit-inittab
+Version: 2.88dsf-r10
+Conflicts: busybox-inittab
+Section: base
+Architecture: xb10
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e7baf12133545c6031fd52705b9eed92
+Size: 1842
+Filename: sysvinit-inittab_2.88dsf-r10_xb10.ipk
+Source: sysvinit-inittab_2.88dsf.bb
+Description: Inittab configuration for SysVinit
+OE: sysvinit-inittab
+License: GPL-2.0-only
+Priority: optional
+
