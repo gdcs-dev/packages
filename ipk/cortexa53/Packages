@@ -82253,6 +82253,17 @@ HomePage: http://freedesktop.org/wiki/Software/shared-mime-info
 License: GPL-2.0-only
 Priority: optional
 
+Package: sherloq-agent
+Version: 0.1.0+git20260824.b73cb72
+Section: misc
+Architecture: cortexa53
+Maintainer: Package Workflows <packages@example.com>
+MD5Sum: 1f7a39fe451c46702a99c9a064738eee
+Size: 1043152
+Filename: sherloq-agent_0.1.0+git20260824.b73cb72_cortexa53.ipk
+Description: Native on-device telemetry collector
+Priority: optional
+
 Package: sln
 Version: 2.35-r0
 Section: libs
