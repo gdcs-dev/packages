@@ -82258,8 +82258,8 @@ Version: 0.1.0+git20260824.b73cb72
 Section: misc
 Architecture: cortexa53
 Maintainer: Package Workflows <packages@example.com>
-MD5Sum: d34c5eb9348caf416646a446bcec354a
-Size: 1048162
+MD5Sum: 394c2fa365d6401ce6688a6511d350be
+Size: 1049614
 Filename: sherloq-agent_0.1.0+git20260824.b73cb72_cortexa53.ipk
 Description: Native on-device telemetry collector
 Priority: optional
